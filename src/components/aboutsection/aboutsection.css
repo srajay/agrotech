@@ -1,0 +1,146 @@
+.about-section {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.about-text {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-text-title > h1 {
+  font-size: 50px;
+}
+.about-text-para {
+  width: 800px;
+}
+.about-text-para > p {
+  font-size: 18px;
+  color: #787878;
+}
+
+.about-img {
+  width: auto;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.about-img > img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.about-goal {
+  display: flex;
+  column-gap: 40px;
+}
+.about-mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 600px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #c3ffba;
+  color: #0d6500;
+}
+.about-vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 600px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #c3ffba;
+  color: #0d6500;
+}
+
+/* Responsive at 1440px */
+@media screen and (max-width: 1440px) {
+  .about-text-title > h1 {
+    font-size: 30px;
+  }
+}
+/* Responsive at 1024px */
+@media screen and (max-width: 1024px) {
+  .about-text-title > h1 {
+    font-size: 30px;
+  }
+  .about-text-para {
+    width: 500px;
+  }
+  .about-mission {
+    height: 250px;
+  }
+  .about-vision {
+    height: 250px;
+  }
+}
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .about-section {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .about-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text-para {
+    width: auto;
+  }
+  .about-mission {
+    height: 300px;
+  }
+  .about-vision {
+    height: 300px;
+  }
+}
+/* Responsive at 426px */
+@media screen and (max-width: 426px) {
+  .about-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+  .about-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text-title > h1 {
+    font-size: 30px;
+    font-family: "poppins";
+  }
+  .about-text-para {
+    width: auto;
+  }
+  .about-goal {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .about-mission {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+  }
+  .about-vision {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    width: auto;
+    height: auto;
+  }
+}

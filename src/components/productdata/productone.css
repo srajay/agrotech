@@ -1,0 +1,30 @@
+.productone {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.one-content1 {
+  display: flex;
+  column-gap: 40px;
+}
+.one-content-left > ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.one-content-right > ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.product1 h3 {
+  color: #46973b;
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .one-content1 {
+    flex-direction: column;
+  }
+}

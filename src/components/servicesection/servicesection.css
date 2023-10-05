@@ -1,0 +1,141 @@
+.service-section {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+}
+.service-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.service-text {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-text-title > h1 {
+  font-size: 50px;
+}
+.service-text-para {
+  width: 800px;
+}
+.service-text-para > p {
+  font-size: 18px;
+  color: #787878;
+}
+.service-link {
+  width: 350px;
+}
+.service-link > a {
+  display: flex;
+  column-gap: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+.service-link > a:hover {
+  color: #46973b;
+}
+.service-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+/* card1 */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  background-color: #2c2c2c;
+}
+.card-img {
+  width: 300px;
+  height: 300px;
+}
+.card-img > img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.card-text {
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background-color: #46973b;
+  color: #fff;
+}
+.card-text > h3 {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card-text > p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Responsive at 1440px */
+@media screen and (max-width: 1440px) {
+  .card {
+    width: 280px;
+  }
+}
+/* Responsive at 1024px */
+@media screen and (max-width: 1024px) {
+  .service-text-para {
+    width: 500px;
+  }
+  .card {
+    width: 300px;
+  }
+}
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .service-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+  }
+  .service-text-title > h1 {
+    font-size: 30px;
+  }
+  .service-text-para {
+    width: 400px;
+  }
+}
+
+/* Responsive at 426px */
+@media screen and (max-width: 426px) {
+  .service-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+  .service-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .service-text-title > h1 {
+    font-size: 30px;
+    font-family: "poppins";
+  }
+  .service-text-para {
+    width: auto;
+    margin-top: -20px;
+  }
+  .service-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+}

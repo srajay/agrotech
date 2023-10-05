@@ -1,0 +1,15 @@
+.newspage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newspage-cta > a > button {
+  width: 200px;
+  height: 60px;
+  background-color: #46973b;
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
+  font-size: 20px;
+}

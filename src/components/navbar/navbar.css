@@ -1,0 +1,136 @@
+.navbar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px hsla(0, 0%, 0%, 0.195);
+  z-index: 5;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo-section {
+  width: 50px;
+  height: auto;
+  object-fit: cover;
+}
+.logo-section > a {
+  text-decoration: none;
+}
+.logo-section > a > img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+.navbar-links > li {
+  list-style: none;
+}
+.navbar-links > li > a {
+  text-decoration: none;
+  color: #111;
+  cursor: pointer;
+}
+
+.navbar-links > li > a:hover {
+  color: #46973b;
+}
+.navbar-links .active {
+  color: #46973b;
+}
+.navbar-links > li > a > button {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #46973b;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.scroll-top > button {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #46973b;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar-mob {
+  display: none;
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .navbar-links {
+    display: none;
+  }
+  .scroll-top {
+    display: none;
+  }
+  .navbar-mob {
+    display: flex;
+  }
+
+  .navbar-items {
+    margin-top: 20px;
+    position: absolute;
+    right: 50px;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    background-color: #46973b;
+  }
+
+  .navbar-items > li {
+    list-style: none;
+  }
+  .navbar-items > li > a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navbar-items > li > a > button {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #fff;
+    text-decoration: none;
+    color: #46973b;
+    cursor: pointer;
+  }
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar-items {
+    right: 20px;
+  }
+}

@@ -1,0 +1,122 @@
+.productpage {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 40px;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.product-card1 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.product1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #c2c2c2;
+}
+
+.product1-img > img {
+  width: 300px;
+  height: 300px;
+}
+.product1-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #46973b;
+  cursor: pointer;
+}
+.product1-title > p {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.product1-title:hover {
+  background-color: #46973b;
+  color: #fff;
+}
+
+/* Modal styles */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.224);
+}
+
+.modal-content {
+  background-color: #fff;
+  text-align: left;
+  margin: 10% auto;
+  padding: 20px 20px 20px 30px;
+  border: 1px solid #888;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  overflow: scroll;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Responsive at 1024px */
+@media screen and (max-width: 1024px) {
+  .modal-content {
+    width: 800px;
+  }
+}
+
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 650px;
+  }
+}
+
+/* Responsive at 426px */
+@media screen and (max-width: 426px) {
+  .modal-content {
+    width: 350px;
+  }
+}
+/* Responsive at 375px */
+@media screen and (max-width: 376px) {
+  .modal-content {
+    width: 280px;
+  }
+}
+/* Responsive at 320px */
+@media screen and (max-width: 320px) {
+  .modal-content {
+    width: 250px;
+  }
+}

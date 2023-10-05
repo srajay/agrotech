@@ -1,0 +1,148 @@
+.principle-section {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+}
+.principle-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+  width: auto;
+  border: 2px solid #787878;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.principle-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  padding-left: 40px;
+  background-color: #ffcc00;
+}
+
+.line {
+  width: auto;
+  height: 3px;
+  background-color: #dddddd;
+}
+.principle-title > p {
+  font-size: 25px;
+  font-weight: 600;
+}
+.principle-desc {
+  margin-top: 20px;
+  text-align: left;
+  width: 40%;
+}
+.principle-desc > p {
+  margin-bottom: 50px;
+}
+.principle-list-mob {
+  display: none;
+}
+
+/* Responsive at 1024px */
+@media screen and (max-width: 1024px) {
+  .principle-content {
+    column-gap: 40px;
+  }
+  .principle-title > p {
+    font-size: 20px;
+  }
+  .principle-card {
+    width: 250px;
+  }
+  .principle-desc > p {
+    margin-bottom: 40px;
+  }
+}
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .principle-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+  }
+  .principle-content {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .principle-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0px;
+    width: 600px;
+  }
+  .principle-title {
+    display: none;
+  }
+  .principle-desc {
+    display: none;
+  }
+  .principle-list-mob {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .principle-title-mob > p {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .principle-desc-mob {
+    margin-top: -30px;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+  }
+}
+
+/* Responsive at 426px */
+@media screen and (max-width: 426px) {
+  .principle-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+  .principle-content {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .principle-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .principle-title {
+    display: none;
+  }
+  .principle-desc {
+    display: none;
+  }
+  .principle-list-mob {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 20px;
+  }
+  .principle-title-mob > p {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .principle-desc-mob {
+    margin-top: -30px;
+    text-align: center;
+    width: auto;
+  }
+}

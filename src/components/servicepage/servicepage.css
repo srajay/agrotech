@@ -1,0 +1,137 @@
+.servicepage {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 40px;
+}
+.servicepage-content {
+  width: auto;
+  height: 400px;
+  border: 2px solid #111111;
+  border-radius: 20px;
+  padding: 20px;
+}
+.content-card {
+  display: flex;
+  column-gap: 40px;
+}
+.servicepage-img {
+  width: 650px;
+  height: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.servicepage-img > img {
+  width: 650px;
+  height: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.servicepage-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 600px;
+}
+.servicepage-title > p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.servicepage-para > ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.servicepage-para > ul > li {
+  list-style: circle;
+  list-style-position: outside;
+}
+
+/* Responsive at 1440px */
+@media screen and (max-width: 1440px) {
+  .servicepage-content {
+    height: auto;
+  }
+  .servicepage-img {
+    height: 450px;
+  }
+  .servicepage-img > img {
+    height: 450px;
+  }
+}
+/* Responsive at 1024px */
+@media screen and (max-width: 1024px) {
+  .servicepage-content {
+    height: auto;
+  }
+  .content-card {
+    flex-direction: column;
+  }
+  .servicepage-img {
+    height: 500px;
+    width: 100%;
+  }
+  .servicepage-img > img {
+    height: 500px;
+    width: 100%;
+  }
+}
+/* Responsive at 768px */
+@media screen and (max-width: 768px) {
+  .servicepage {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .servicepage-title {
+    width: 90%;
+  }
+  .servicepage-para {
+    width: 90%;
+  }
+}
+/* Responsive at 426px */
+@media screen and (max-width: 426px) {
+  .servicepage {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .servicepage-content {
+    width: 90%;
+  }
+  .servicepage-img {
+    height: 200px;
+    width: 1005;
+  }
+  .servicepage-img > img {
+    height: 200px;
+    width: 100%;
+  }
+  .servicepage-text {
+    width: 350px;
+  }
+  .servicepage-title {
+    width: 100%;
+  }
+  .servicepage-title > p {
+    font-size: 20px;
+  }
+  .servicepage-para {
+    width: 100%;
+  }
+}
+
+/* Responsive at 375px */
+@media screen and (max-width: 376px) {
+  .servicepage-text {
+    width: 300px;
+  }
+}
+
+/* Responsive at 375px */
+@media screen and (max-width: 320px) {
+  .servicepage-text {
+    width: 250px;
+  }
+}

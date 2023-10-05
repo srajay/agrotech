@@ -1,0 +1,244 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 630px;
+  background-color: #ecffe9;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+  margin-top: -65px;
+}
+.hero-title,
+.hero-para {
+  width: 600px;
+}
+
+.hero-title > h1 {
+  text-align: left;
+  font-family: "playfair display";
+  font-size: 55px;
+  font-weight: 800;
+  margin-top: 80px;
+}
+.hero-para > p {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.hero-cta {
+  margin-top: 20px;
+}
+.hero-cta > a > button {
+  width: 300px;
+  height: 60px;
+  background-color: #46973b;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.hero-right {
+  display: flex;
+  column-gap: 20px;
+  margin-right: 100px;
+}
+.box-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 350px;
+  height: 500px;
+}
+.box1 {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.box1 > img {
+  width: 350px;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.box1 > img:hover {
+  transform: scale(1.5);
+}
+.box2 {
+  display: flex;
+  column-gap: 20px;
+}
+.box21 {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.box21 > img {
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.box21 > img:hover {
+  transform: scale(1.5);
+}
+.box22 {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.box22 > img {
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.box22 > img:hover {
+  transform: scale(1.5);
+}
+.box3 {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.box3 > img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.box3 > img:hover {
+  transform: scale(1.5);
+}
+
+/* Responsive at 1024px */
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    width: auto;
+  }
+  .hero-left {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+  }
+  .hero-title {
+    width: 50%;
+  }
+  .hero-para {
+    width: 70%;
+  }
+  .hero-title > h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .hero-para > p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    margin-right: 0px;
+  }
+  .box-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .box2 {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .box21 > img {
+    width: 300px;
+    height: 145px;
+  }
+  .box22 > img {
+    width: 300px;
+    height: 145px;
+  }
+  .box3 > img {
+    width: 680px;
+    height: 300px;
+  }
+}
+
+/* Responsive at 426px */
+@media screen and (max-width: 426px) {
+  .hero-section {
+    flex-direction: column;
+    row-gap: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    width: auto;
+  }
+  .hero-left {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+  }
+  .hero-title,
+  .hero-para {
+    width: auto;
+  }
+  .hero-title > h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .hero-para > p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .hero-right {
+    flex-direction: column;
+    row-gap: 20px;
+    margin: auto;
+  }
+  .box-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: auto;
+    height: auto;
+  }
+  .box1 > img {
+    width: 300px;
+    height: 300px;
+  }
+  .box21 > img {
+    width: 300px;
+    height: 145px;
+  }
+  .box22 > img {
+    width: 300px;
+    height: 145px;
+  }
+  .box3 > img {
+    width: 300px;
+    height: 300px;
+  }
+}
