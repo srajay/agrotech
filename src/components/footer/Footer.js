@@ -113,7 +113,7 @@ const Footer = () => {
           <div className="footer-copyright">
             <p>
               ALL RIGHTS RESERVED 2023 | &#169; Ilami Agro & Tech | DESIGNED BY
-              BYTETECH SOLUTION
+              Margin Tech
             </p>
           </div>
         </div>
