@@ -1,5 +1,6 @@
 import React from "react";
 import "./productpage.css";
+import GoToTop from "../GoToTop";
 import ProductOne from "../productdata/ProductOne";
 import ProductTwo from "../productdata/ProductTwo";
 import ProductThree from "../productdata/ProductThree";
@@ -24,6 +25,7 @@ const ProductPage = () => {
           </div>
         </div>
       </div>
+      <GoToTop />
     </>
   );
 };

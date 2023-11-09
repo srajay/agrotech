@@ -18,8 +18,8 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="company-info">
-                <p>Bhanimandal, Lalitpur, Nepal</p>
-                <p>+977 01-4890768</p>
+                <p>Baghdol, Lalitpur, Nepal</p>
+                <p>+977 01-519046</p>
                 <div className="social">
                   <a
                     href="https://www.facebook.com/ilamiat"

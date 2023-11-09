@@ -1,10 +1,11 @@
 import React from "react";
 import "./servicepage.css";
+import GoToTop from "../GoToTop";
 import Img4 from "../../assets/img4.webp";
 import Img13 from "../../assets/img13.webp";
 import Img8 from "../../assets/img8.webp";
 import Img17 from "../../assets/img17.webp";
-
+import Img29 from "../../assets/img29.webp";
 const ServicePage = () => {
   return (
     <>
@@ -16,14 +17,15 @@ const ServicePage = () => {
             </div>
             <div className="servicepage-text">
               <div className="servicepage-title">
-                <p>
-                  Agriculture Research for Development (AR4D) and farming
-                  services
-                </p>
+                <p>Agriculture Research for Development (AR4D)</p>
               </div>
 
               <div className="servicepage-para">
                 <ul>
+                  <li>
+                    Regenerative agriculture and safe food production
+                    technologies.
+                  </li>
                   <li>
                     Innovative AR4D for developing & identifying climate smart
                     and appropriate technologies.
@@ -36,7 +38,42 @@ const ServicePage = () => {
                     Fast tracking commercialization of best bet technologies and
                     products with comparative advantages.
                   </li>
-                  <li>Enterprising seed sector with comparative advantage.</li>
+                  <li>
+                    Enterprising plant and animal-based products with
+                    comparative advantage.
+                  </li>
+                  <li>Circular Bio-economy.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="servicepage-content">
+          <div className="content-card">
+            <div className="servicepage-img">
+              <img src={Img29} alt="agriculture-research" />
+            </div>
+            <div className="servicepage-text">
+              <div className="servicepage-title">
+                <p>Laboratory analytics and R&D</p>
+              </div>
+
+              <div className="servicepage-para">
+                <ul>
+                  <li>
+                    Survey and surveillance of animal diseases and animal
+                    disease diagnostic.
+                  </li>
+                  <li>
+                    Mastitis research-bacterial isolation, antibiotic
+                    sensitivity test.
+                  </li>
+                  <li>Bacteriological analysis of water samples.</li>
+                  <li>Karyotyping of local animal breeds.</li>
+                  <li>
+                    New research topic: biological control of ticks, mite and
+                    other parasites.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -116,7 +153,7 @@ const ServicePage = () => {
             </div>
             <div className="servicepage-text">
               <div className="servicepage-title">
-                <p>Consulting and farming services</p>
+                <p>Technical Assistance and Farming services</p>
               </div>
 
               <div className="servicepage-para">
@@ -130,6 +167,12 @@ const ServicePage = () => {
                     Developing Master Plans, project and programme evaluation,
                     outcome & impact assessment for stakeholders.
                   </li>
+                  <li>
+                    Design , plantation and management of tea gardens and fruit
+                    orchards.
+                  </li>
+                  <li>Farm advisory services.</li>
+                  <li>Irrigation development and support services.</li>
                   <li>Policy analysis.</li>
                 </ul>
               </div>
@@ -137,6 +180,7 @@ const ServicePage = () => {
           </div>
         </div>
       </div>
+      <GoToTop />
     </>
   );
 };

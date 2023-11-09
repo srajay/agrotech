@@ -11,7 +11,9 @@ const HeroSection = () => {
       <div className="hero-section">
         <div className="hero-left">
           <div className="hero-title">
-            <h1>Sow, Grow, and Thrive with Agrotech's Bright Horizon.</h1>
+            <h1>
+              Sow and Grow For a Happy Harvest with Safe Food Production System.
+            </h1>
           </div>
           <div className="hero-para">
             <p>

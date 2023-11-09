@@ -55,7 +55,8 @@ const ServiceSection = () => {
                 <h3>Enterprising & Commercialization</h3>
                 <p>
                   Product development, branding and commercialisation of
-                  biofortifed, nutrient dense crops & health foods.
+                  biofortifed, nutrient dense crops, health foods, livestocks
+                  and dairy products.
                 </p>
               </div>
               <div className="card-img">

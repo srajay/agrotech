@@ -1,5 +1,6 @@
 import React from "react";
 import "./contactpage.css";
+import GoToTop from "../GoToTop";
 
 const ContactPage = () => {
   return (
@@ -33,6 +34,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      <GoToTop />
     </>
   );
 };
