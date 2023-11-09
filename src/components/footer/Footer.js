@@ -92,6 +92,16 @@ const Footer = () => {
                   AnamolBiu
                 </a>
               </p>
+
+              <p>
+                <a
+                  href="https://kirdarc.org/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  KIRDARC
+                </a>
+              </p>
             </div>
             {/* <div className="footer-right">
               <h1>Products</h1>
@@ -113,7 +123,7 @@ const Footer = () => {
           <div className="footer-copyright">
             <p>
               ALL RIGHTS RESERVED 2023 | &#169; Ilami Agro & Tech | DESIGNED BY
-              Margin Tech
+              MarginTech
             </p>
           </div>
         </div>

@@ -37,6 +37,19 @@
   color: #fff;
 }
 
+/* Responsive at 475px */
+@media screen and (max-width: 475px) {
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-left > a {
+    display: none;
+  }
+}
 /* Responsive at 426px */
 @media screen and (max-width: 426px) {
   .header-content {

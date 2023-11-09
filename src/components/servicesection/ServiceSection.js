@@ -1,10 +1,11 @@
 import React from "react";
 import "./servicesection.css";
 import { Link } from "react-router-dom";
-import Img6 from "../../assets/img6.jpg";
-import Img7 from "../../assets/img7.jpg";
-import Img8 from "../../assets/img8.jpg";
-import Img9 from "../../assets/img9.jpg";
+import Img4 from "../../assets/img4.webp";
+import Img13 from "../../assets/img13.webp";
+import Img8 from "../../assets/img8.webp";
+import Img17 from "../../assets/img17.webp";
+
 import EastIcon from "@mui/icons-material/East";
 
 const ServiceSection = () => {
@@ -39,7 +40,7 @@ const ServiceSection = () => {
           <div className="service-card">
             <div className="card">
               <div className="card-img">
-                <img src={Img6} alt="agriculture-research" />
+                <img src={Img4} alt="agriculture-research" />
               </div>
               <div className="card-text">
                 <h3>Agriculture Research & Development</h3>
@@ -58,12 +59,12 @@ const ServiceSection = () => {
                 </p>
               </div>
               <div className="card-img">
-                <img src={Img7} alt="enterprising" />
+                <img src={Img8} alt="enterprising" />
               </div>
             </div>
             <div className="card">
               <div className="card-img">
-                <img src={Img8} alt="training" />
+                <img src={Img17} alt="training" />
               </div>
               <div className="card-text">
                 <h3>Training Programme</h3>
@@ -84,7 +85,7 @@ const ServiceSection = () => {
                 </p>
               </div>
               <div className="card-img">
-                <img src={Img9} alt="consulting" />
+                <img src={Img13} alt="consulting" />
               </div>
             </div>
           </div>

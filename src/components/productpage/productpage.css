@@ -88,6 +88,12 @@
   cursor: pointer;
 }
 
+/* Responsive at 1280px */
+@media screen and (max-width: 1280px) {
+  .modal-content {
+    width: 800px;
+  }
+}
 /* Responsive at 1024px */
 @media screen and (max-width: 1024px) {
   .modal-content {
@@ -102,6 +108,12 @@
   }
 }
 
+/* Responsive at 475px */
+@media screen and (max-width: 475px) {
+  .modal-content {
+    width: 350px;
+  }
+}
 /* Responsive at 426px */
 @media screen and (max-width: 426px) {
   .modal-content {

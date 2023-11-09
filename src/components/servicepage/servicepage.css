@@ -63,6 +63,23 @@
     height: 450px;
   }
 }
+/* Responsive at 1280px */
+@media screen and (max-width: 1280px) {
+  .servicepage-content {
+    height: auto;
+  }
+  .content-card {
+    flex-direction: column;
+  }
+  .servicepage-img {
+    height: 500px;
+    width: 100%;
+  }
+  .servicepage-img > img {
+    height: 500px;
+    width: 100%;
+  }
+}
 /* Responsive at 1024px */
 @media screen and (max-width: 1024px) {
   .servicepage-content {
@@ -88,6 +105,39 @@
   }
   .servicepage-text {
     width: 90%;
+  }
+}
+
+/* Responsive at 475px */
+@media screen and (max-width: 475px) {
+  .servicepage {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .servicepage-content {
+    /* width: 90%; */
+    width: auto;
+  }
+
+  .servicepage-img {
+    height: 200px;
+    width: 1005;
+  }
+  .servicepage-img > img {
+    height: 200px;
+    width: 100%;
+  }
+  .servicepage-text {
+    width: 350px;
+  }
+  .servicepage-title {
+    width: 100%;
+  }
+  .servicepage-title > p {
+    font-size: 20px;
+  }
+  .servicepage-para {
+    width: 100%;
   }
 }
 /* Responsive at 426px */

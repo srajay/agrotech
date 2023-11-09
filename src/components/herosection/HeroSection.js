@@ -1,10 +1,10 @@
 import React from "react";
 import "./herosection.css";
 import { Link } from "react-router-dom";
-import Img5 from "../../assets/img5.jpg";
-import Img6 from "../../assets/img6.jpg";
-import Img7 from "../../assets/img7.jpg";
-import Img8 from "../../assets/img8.jpg";
+import Img4 from "../../assets/img4.webp";
+import Img9 from "../../assets/img9.webp";
+import Img17 from "../../assets/img17.webp";
+import Img38 from "../../assets/img38.webp";
 const HeroSection = () => {
   return (
     <>
@@ -30,20 +30,20 @@ const HeroSection = () => {
         <div className="hero-right">
           <div className="box-left">
             <div className="box1">
-              <img src={Img5} alt="img1" />
+              <img src={Img4} alt="img1" />
             </div>
             <div className="box2">
               <div className="box21">
-                <img src={Img6} alt="img3" />
+                <img src={Img9} alt="img3" />
               </div>
               <div className="box22">
-                <img src={Img7} alt="img6" />
+                <img src={Img17} alt="img6" />
               </div>
             </div>
           </div>
           <div className="box-right">
             <div className="box3">
-              <img src={Img8} alt="img4" />
+              <img src={Img38} alt="img4" />
             </div>
           </div>
         </div>

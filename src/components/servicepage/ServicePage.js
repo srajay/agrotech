@@ -1,9 +1,9 @@
 import React from "react";
 import "./servicepage.css";
-import Img6 from "../../assets/img6.jpg";
-import Img7 from "../../assets/img7.jpg";
-import Img8 from "../../assets/img8.jpg";
-import Img9 from "../../assets/img9.jpg";
+import Img4 from "../../assets/img4.webp";
+import Img13 from "../../assets/img13.webp";
+import Img8 from "../../assets/img8.webp";
+import Img17 from "../../assets/img17.webp";
 
 const ServicePage = () => {
   return (
@@ -12,7 +12,7 @@ const ServicePage = () => {
         <div className="servicepage-content">
           <div className="content-card">
             <div className="servicepage-img">
-              <img src={Img6} alt="agriculture-research" />
+              <img src={Img4} alt="agriculture-research" />
             </div>
             <div className="servicepage-text">
               <div className="servicepage-title">
@@ -45,7 +45,7 @@ const ServicePage = () => {
         <div className="servicepage-content">
           <div className="content-card">
             <div className="servicepage-img">
-              <img src={Img9} alt="agriculture-training" />
+              <img src={Img17} alt="agriculture-training" />
             </div>
             <div className="servicepage-text">
               <div className="servicepage-title">
@@ -77,7 +77,7 @@ const ServicePage = () => {
         <div className="servicepage-content">
           <div className="content-card">
             <div className="servicepage-img">
-              <img src={Img7} alt="agriculture-commercialisation" />
+              <img src={Img8} alt="agriculture-commercialisation" />
             </div>
             <div className="servicepage-text">
               <div className="servicepage-title">
@@ -112,7 +112,7 @@ const ServicePage = () => {
         <div className="servicepage-content">
           <div className="content-card">
             <div className="servicepage-img">
-              <img src={Img8} alt="agriculture-consulting" />
+              <img src={Img13} alt="agriculture-consulting" />
             </div>
             <div className="servicepage-text">
               <div className="servicepage-title">

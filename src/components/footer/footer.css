@@ -92,6 +92,32 @@
     justify-content: center;
   }
 }
+
+/* Responsive at 475px */
+@media screen and (max-width: 475px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .footer-links {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .footer-left {
+    text-align: center;
+  }
+  .social {
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .footer-copyright {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
 /* Responsive at 426px */
 @media screen and (max-width: 426px) {
   .footer {

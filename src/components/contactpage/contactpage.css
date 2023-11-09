@@ -46,6 +46,23 @@
   }
 }
 
+/* Responsive at 475px */
+@media screen and (max-width: 475px) {
+  .contactpage {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .map-container {
+    width: 380px;
+  }
+  .map-container > iframe {
+    width: 380px;
+  }
+  .contact-info {
+    width: 320px;
+    padding-right: 30px;
+  }
+}
 /* Responsive at 426px */
 @media screen and (max-width: 426px) {
   .contactpage {

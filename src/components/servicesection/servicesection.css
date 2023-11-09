@@ -89,6 +89,16 @@
     width: 280px;
   }
 }
+
+/* Responsive at 1280px */
+@media screen and (max-width: 1280px) {
+  .service-text-para {
+    width: 500px;
+  }
+  .card {
+    width: 300px;
+  }
+}
 /* Responsive at 1024px */
 @media screen and (max-width: 1024px) {
   .service-text-para {
@@ -110,6 +120,33 @@
   }
   .service-text-para {
     width: 400px;
+  }
+}
+
+/* Responsive at 475px */
+@media screen and (max-width: 475px) {
+  .service-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+  .service-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .service-text-title > h1 {
+    font-size: 30px;
+    font-family: "poppins";
+  }
+  .service-text-para {
+    width: auto;
+    margin-top: -20px;
+  }
+  .service-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
   }
 }
 

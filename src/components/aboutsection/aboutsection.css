@@ -74,6 +74,21 @@
     font-size: 30px;
   }
 }
+/* Responsive at 1280px */
+@media screen and (max-width: 1280px) {
+  .about-text-title > h1 {
+    font-size: 30px;
+  }
+  .about-text-para {
+    width: 500px;
+  }
+  .about-mission {
+    height: 250px;
+  }
+  .about-vision {
+    height: 250px;
+  }
+}
 /* Responsive at 1024px */
 @media screen and (max-width: 1024px) {
   .about-text-title > h1 {
@@ -107,6 +122,41 @@
   }
   .about-vision {
     height: 300px;
+  }
+}
+/* Responsive at 475px */
+@media screen and (max-width: 475px) {
+  .about-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+  .about-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text-title > h1 {
+    font-size: 30px;
+    font-family: "poppins";
+  }
+  .about-text-para {
+    width: auto;
+  }
+  .about-goal {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .about-mission {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+  }
+  .about-vision {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    width: auto;
+    height: auto;
   }
 }
 /* Responsive at 426px */
