@@ -78,7 +78,7 @@ const ServiceSection = () => {
             </div>
             <div className="card">
               <div className="card-text">
-                <h3>Consulting Services</h3>
+                <h3>Technical Assistance</h3>
                 <p>
                   Providing strategic as well as customized scientific &
                   technical services to improve productivity, quality and

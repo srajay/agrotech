@@ -23,10 +23,10 @@ const ContactPage = () => {
             <h4>
               Ilami Agro and Tech Pvt. Ltd. | इलमी एग्राे एंड टेक प्रा.लि.
             </h4>
-            <p>Bhanimandal, Lalitpur, Nepal</p>
+            <p>Baghdol, Lalitpur, Nepal</p>
             <div className="phone-num">
               <p>Email: ilamiagro@gmail.com</p>
-              <p>Phone: +977 01-4890768</p>
+              <p>Phone: +977 01-519046</p>
               <p>Mobile: +977 9849607842</p>
             </div>
 

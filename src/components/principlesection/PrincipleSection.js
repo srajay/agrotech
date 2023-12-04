@@ -24,10 +24,7 @@ const PrincipleSection = () => {
             <div className="line"></div>
           </div>
           <div className="principle-desc">
-            <p>
-              Use of participatory and other novel approaches to research,
-              development and enterprising.
-            </p>
+            <p>Use of participatory and ovel approaches to R&D.</p>
 
             <p>
               Contribute to creating local employment opportunities by using
@@ -46,10 +43,7 @@ const PrincipleSection = () => {
             </div>
 
             <div className="principle-desc-mob">
-              <p>
-                Use of participatory and other novel approaches to research,
-                development and enterprising.
-              </p>
+              <p>Use of participatory and ovel approaches to R&D.</p>
             </div>
             <div className="line"></div>
             <div className="principle-title-mob">

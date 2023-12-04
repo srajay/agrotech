@@ -74,6 +74,12 @@ const ServicePage = () => {
                     New research topic: biological control of ticks, mite and
                     other parasites.
                   </li>
+                  <li>Bacteriological examination of water samples.</li>
+                  <li>Bacteriological examination of milk samples.</li>
+                  <li>
+                    Antibiotic sensitivity test of milk samples from mastitis
+                    infection animals.
+                  </li>
                 </ul>
               </div>
             </div>
