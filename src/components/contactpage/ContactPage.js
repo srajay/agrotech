@@ -25,7 +25,7 @@ const ContactPage = () => {
             </h4>
             <p>Baghdol, Lalitpur, Nepal</p>
             <div className="phone-num">
-              <p>Email: ilamiagro@gmail.com</p>
+              <p>Email: agroilami@gmail.com</p>
               <p>Phone: +977 01-519046</p>
               <p>Mobile: +977 9849607842</p>
             </div>

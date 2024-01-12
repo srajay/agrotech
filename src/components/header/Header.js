@@ -17,7 +17,7 @@ const Header = () => {
                 <DraftsIcon />
               </p>
 
-              <p>ilamiagro@gmail.com</p>
+              <p>agroilami@gmail.com</p>
             </a>
           </div>
           <div className="header-right">

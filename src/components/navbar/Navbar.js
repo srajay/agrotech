@@ -37,15 +37,15 @@ const Navbar = () => {
             </Link>
           </li>
           {/* <li>
-            <Link to="/news">
-              <p>News</p>
+            <Link to="/gallery">
+              <p>Gallery</p>
             </Link>
           </li> */}
-          {/* <li>
-            <Link to="/blog">
-              <p>Blog</p>
+          <li>
+            <Link to="/events">
+              <p>Events</p>
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/contact">
               <button>Contact</button>
@@ -80,15 +80,15 @@ const Navbar = () => {
                   </Link>
                 </li>
                 {/* <li>
-                  <Link to="/news">
-                    <p>News</p>
+                  <Link to="/gallery">
+                    <p>Gallery</p>
                   </Link>
                 </li> */}
-                {/* <li>
-                  <Link to="/blog">
-                    <p>Blog</p>
+                <li>
+                  <Link to="/events">
+                    <p>Events</p>
                   </Link>
-                </li> */}
+                </li>
                 <li>
                   <Link to="/contact">
                     <button>Contact</button>

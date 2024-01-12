@@ -78,6 +78,11 @@
   color: #fff;
   opacity: 80%;
 }
+.footer-copyright p > a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #ffcc00;
+}
 
 /* Responsive at 768px */
 @media screen and (max-width: 768px) {
